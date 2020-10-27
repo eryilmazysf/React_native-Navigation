@@ -30,7 +30,7 @@ const First = (props) => {
           title="Go!"
           onPress={() =>
             props.navigation.navigate('SecondPage', {selectedValue: userName})
-          } //selectedValue clik le beraber tasinir
+          } //selectedValue click le beraber tasinir
         />
       </View>
     </SafeAreaView>
