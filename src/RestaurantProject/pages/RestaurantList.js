@@ -18,7 +18,7 @@ const RestaurantList = (props) => {
         },
       })
       .then((response) => {
-        console.log(response);
+        //console.log(response);
         setRestaurantList(response.data.restaurants); //response icinde data ve data icinde restaurants erisim sagladik
         originalList = [...response.data.restaurants];
       })

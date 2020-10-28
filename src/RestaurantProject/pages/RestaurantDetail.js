@@ -51,6 +51,15 @@ const RestaurantDetail = (props) => {
         <View style={styles.infoContainer}>
           <Text style={styles.infoText}>{selectedRestaurant.phone}</Text>
         </View>
+        <View style={styles.infoContainer}>
+          <Text
+            style={{
+              color: 'white',
+              fontSize: 20,
+              fontWeight: 'bold',
+              textAlign: 'center',
+            }}>{`Rating:${'⭐'.repeat(selectedRestaurant.price)}`}</Text>
+        </View>
         <TouchableOpacity
           style={styles.reserve}
           onPress={() => {
